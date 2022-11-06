@@ -13,7 +13,7 @@ const ThemeSelector = ({children}) => {
     <React.Suspense fallback={<></>} key = {theme}>
       {theme === 'dark'  && <DarkTheme />}
       {theme === 'light'  && <LightTheme />}
-      <button onClick ={() => {localStorage.setItem('theme', localStorage.getItem('theme') === 'dark' ? 'light' : 'dark'); window.location.reload();}}> Change Mode </button>
+      {/* <Button variant="danger">Danger</Button> */}
       {children}
     </React.Suspense>
   )
