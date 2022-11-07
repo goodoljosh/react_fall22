@@ -35,13 +35,12 @@ function MainBody() {
             <p>PROFESSIONAL COMPETENCIES</p>
             <p>Technical</p>
             <p>
-                Windows                  MS Word                      HTML
-                COBOL                    MARIE                        MySQL
+                Windows, MS Word, HTML, COBOL, MARIE, MySQL
             </p>
             <p>SPECIAL INTERESTS</p>
             <p>
-                	Gaming
-                    Working-Out
+                	Gaming,
+                    Working-Out,
                     Pets
 
             </p>
