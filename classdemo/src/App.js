@@ -7,13 +7,7 @@ function App() {
     <div className="App">
       <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="#home">Home</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-1">Qualifications</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-2">References</Nav.Link>
+          <Nav.Link href="index.html">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
            <Button variant = "danger" onClick ={() => {localStorage.setItem('theme', localStorage.getItem('theme') === 'dark' ? 'light' : 'dark'); window.location.reload();}}> Change Mode </Button>

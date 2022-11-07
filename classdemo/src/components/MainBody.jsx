@@ -39,9 +39,9 @@ function MainBody() {
             </p>
             <p>SPECIAL INTERESTS</p>
             <p>
-                	Gaming,
-                    Working-Out,
-                    Pets
+                Gaming,
+                Working-Out,
+                Pets
 
             </p>
         </div >
