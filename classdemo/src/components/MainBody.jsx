@@ -10,8 +10,7 @@ function MainBody() {
 
     return (
      < div >
-        <h3> Your name is: <i>{name}</i> </h3>
-        <input type = "text" value = {name} onChange={handleChange}/>
+     
      </div >
 
     )

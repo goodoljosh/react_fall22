@@ -17,27 +17,27 @@ class Header extends Component {
 
     render() {
         const { linkText, linkUrl } = this.props
-        const name = this.state.name
+        //const name = this.state.name
         //this.props.linkText
         return (
             <header className={`App-header ${this.state.theme}`}>
                 <p className={"testing-this" + this.state.theme}>
-                    Edit <code>src/App.js</code> and save to reload.
+                    Resume
                 </p>
-                <a
+                {/* <a
                     className="App-link" href={linkUrl} target="_blank" rel="noopener noreferrer">
                     {linkText}
-                </a>
-                <div>
+                </a> */}
+                {/* <div>
                     <h3> Your stateful name is: <i>{name}</i></h3>
                     <input type="text" value={name} onChange={(e) => this.setState({name : e.target.value})} />
-                </div >
-                <span>
+                </div > */}
+                {/* <span>
                     You have clicked on the button {this.state.count} times!
                 </span>
                 <button onClick={() => this.setState({ count: this.state.count + 1 })}>
                     Increment Count
-                </button>
+                </button> */}
                 <MainBody />
             </header>
         )
