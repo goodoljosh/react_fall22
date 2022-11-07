@@ -12,32 +12,17 @@ class Header extends Component {
         }
     }
 
-    // exp ? true : false; if(exp){true} else {false}  
-    //lifecycle methods
 
     render() {
-        const { linkText, linkUrl } = this.props
-        //const name = this.state.name
-        //this.props.linkText
+
         return (
             <header className={`App-header ${this.state.theme}`}>
-                <p className={"testing-this" + this.state.theme}>
-                    Resume
-                </p>
-                {/* <a
-                    className="App-link" href={linkUrl} target="_blank" rel="noopener noreferrer">
-                    {linkText}
-                </a> */}
-                {/* <div>
-                    <h3> Your stateful name is: <i>{name}</i></h3>
-                    <input type="text" value={name} onChange={(e) => this.setState({name : e.target.value})} />
-                </div > */}
-                {/* <span>
-                    You have clicked on the button {this.state.count} times!
-                </span>
-                <button onClick={() => this.setState({ count: this.state.count + 1 })}>
-                    Increment Count
-                </button> */}
+                <h1 className={"testing-this" + this.state.theme}>
+                    Joshua Findley
+                </h1>
+                <h1>
+                 Computer Science Major
+                </h1>
                 <MainBody />
             </header>
         )
